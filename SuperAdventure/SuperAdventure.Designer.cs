@@ -33,9 +33,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblHitPoints = new System.Windows.Forms.Label();
-            this.IbIGold = new System.Windows.Forms.Label();
-            this.IbIExperience = new System.Windows.Forms.Label();
-            this.IbILevel = new System.Windows.Forms.Label();
+            this.lbl_Gold = new System.Windows.Forms.Label();
+            this.lbl_Experience = new System.Windows.Forms.Label();
+            this.lbl_Level = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -81,43 +81,43 @@
             this.lblHitPoints.Name = "lblHitPoints";
             this.lblHitPoints.Size = new System.Drawing.Size(13, 13);
             this.lblHitPoints.TabIndex = 4;
-            this.lblHitPoints.Text = "a";
+            this.lblHitPoints.Text = "0";
             // 
-            // IbIGold
+            // lbl_Gold
             // 
-            this.IbIGold.AutoSize = true;
-            this.IbIGold.Location = new System.Drawing.Point(110, 45);
-            this.IbIGold.Name = "IbIGold";
-            this.IbIGold.Size = new System.Drawing.Size(35, 13);
-            this.IbIGold.TabIndex = 5;
-            this.IbIGold.Text = "label6";
+            this.lbl_Gold.AutoSize = true;
+            this.lbl_Gold.Location = new System.Drawing.Point(110, 45);
+            this.lbl_Gold.Name = "lbl_Gold";
+            this.lbl_Gold.Size = new System.Drawing.Size(13, 13);
+            this.lbl_Gold.TabIndex = 5;
+            this.lbl_Gold.Text = "0";
             // 
-            // IbIExperience
+            // lbl_Experience
             // 
-            this.IbIExperience.AutoSize = true;
-            this.IbIExperience.Location = new System.Drawing.Point(110, 73);
-            this.IbIExperience.Name = "IbIExperience";
-            this.IbIExperience.Size = new System.Drawing.Size(35, 13);
-            this.IbIExperience.TabIndex = 6;
-            this.IbIExperience.Text = "label7";
+            this.lbl_Experience.AutoSize = true;
+            this.lbl_Experience.Location = new System.Drawing.Point(110, 73);
+            this.lbl_Experience.Name = "lbl_Experience";
+            this.lbl_Experience.Size = new System.Drawing.Size(13, 13);
+            this.lbl_Experience.TabIndex = 6;
+            this.lbl_Experience.Text = "0";
             // 
-            // IbILevel
+            // lbl_Level
             // 
-            this.IbILevel.AutoSize = true;
-            this.IbILevel.Location = new System.Drawing.Point(110, 99);
-            this.IbILevel.Name = "IbILevel";
-            this.IbILevel.Size = new System.Drawing.Size(35, 13);
-            this.IbILevel.TabIndex = 7;
-            this.IbILevel.Text = "label8";
+            this.lbl_Level.AutoSize = true;
+            this.lbl_Level.Location = new System.Drawing.Point(110, 99);
+            this.lbl_Level.Name = "lbl_Level";
+            this.lbl_Level.Size = new System.Drawing.Size(13, 13);
+            this.lbl_Level.TabIndex = 7;
+            this.lbl_Level.Text = "0";
             // 
             // SuperAdventure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 651);
-            this.Controls.Add(this.IbILevel);
-            this.Controls.Add(this.IbIExperience);
-            this.Controls.Add(this.IbIGold);
+            this.Controls.Add(this.lbl_Level);
+            this.Controls.Add(this.lbl_Experience);
+            this.Controls.Add(this.lbl_Gold);
             this.Controls.Add(this.lblHitPoints);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -137,9 +137,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblHitPoints;
-        private System.Windows.Forms.Label IbIGold;
-        private System.Windows.Forms.Label IbIExperience;
-        private System.Windows.Forms.Label IbILevel;
+        private System.Windows.Forms.Label lbl_Gold;
+        private System.Windows.Forms.Label lbl_Experience;
+        private System.Windows.Forms.Label lbl_Level;
     }
 }
 
