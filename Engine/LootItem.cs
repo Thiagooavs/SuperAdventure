@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class LootItems
+    public class LootItem
     {
         public Item Details { get; set; }
         public int PorcentRate { get; set; }
         public bool IsDefaultItem { get; set; } 
 
-        public LootItems(Item details, int porcentrate, bool isdefaultitem) 
+        public LootItem(Item details, int porcentrate, bool isdefaultitem) 
         {
             Details = details;
             PorcentRate = porcentrate;

@@ -8,7 +8,7 @@ namespace Engine
 {
     public class Quest
     {
-        List<QuestCompletionItem> CompletionItems { get; set; }
+        public List<QuestCompletionItem> QuestCompletionItems { get; set; }
 
 
         public int ID {  get; set; }
@@ -16,17 +16,16 @@ namespace Engine
         public string Description { get; set; }
         public int Experience { get; set; }
         public int Gold { get; set; }
-        public Item ItemReward {  get; set; }
+        public Item RewardItem {  get; set; }
 
-        public Quest (int id, string name, string description, int experience, int gold, Item itemReward)
+        public Quest (int id, string name, string description, int experience, int gold )
         {
             ID = id;
             Name = name;
             Description = description;
             Experience = experience;
-            Gold = gold;
-            ItemReward = itemReward;
-            CompletionItems = new List<QuestCompletionItem> ();
+            Gold = gold;            
+            QuestCompletionItems = new List<QuestCompletionItem> ();
         }
     }
 }

@@ -8,8 +8,8 @@ namespace Engine
 {
     public class Player : LivingCreature
     {
-        List<InventoryItems> Inventory {  get; set; }
-        List<PlayerQuest> Quest { get; set; }  
+        public List<InventoryItems> Inventory {  get; set; }
+        public List<PlayerQuest> Quest { get; set; }  
         
         
         

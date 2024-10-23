@@ -8,7 +8,7 @@ namespace Engine
 {
     public class Monster : LivingCreature
     {
-        List<LootItems> lootTable;
+       public List<LootItem> LootTable;
         public int ID {  get; set; }
         public string Name { get; set; }
 
@@ -24,7 +24,7 @@ namespace Engine
             MaximunDamage = maximunDamage;
             Experience = experience;
             Gold = gold;
-            lootTable = new List<LootItems>();  
+            LootTable = new List<LootItem>();  
         }
     }
 }

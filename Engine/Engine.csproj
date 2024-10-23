@@ -46,7 +46,7 @@
     <Compile Include="Item.cs" />
     <Compile Include="LivingCreature.cs" />
     <Compile Include="Location.cs" />
-    <Compile Include="LootItems.cs" />
+    <Compile Include="LootItem.cs" />
     <Compile Include="Monster.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerQuest.cs" />
@@ -54,6 +54,7 @@
     <Compile Include="Quest.cs" />
     <Compile Include="QuestCompletionItem.cs" />
     <Compile Include="Weapon.cs" />
+    <Compile Include="World.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
