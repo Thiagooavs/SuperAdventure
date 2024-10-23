@@ -28,9 +28,8 @@ namespace SuperAdventure
 
             Location location = new Location( 1, "Casa", "Essa é a sua casa");
 
-           
 
-            
+
         }
 
        
