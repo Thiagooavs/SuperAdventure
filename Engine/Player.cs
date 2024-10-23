@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Player
+    public class Player : LivingCreature
     {
-        public int CurrentHitPoints { get; set; }
-        public int MaximunHitPoints { get; set; }
+      
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
 
+        public Player( int currenthitpoints, int maximunhitpoints, int gold, int experiencepoints, int levels) : base( currenthitpoints, maximunhitpoints) 
+        {
+            Gold = gold;
+            ExperiencePoints = experiencepoints;
+            Level = levels;
 
+        }
 
     }
 }

@@ -125,6 +125,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SuperAdventure";
             this.Text = "Meu jogo";
+           
             this.ResumeLayout(false);
             this.PerformLayout();
 
