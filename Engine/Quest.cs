@@ -8,6 +8,8 @@ namespace Engine
 {
     public class Quest
     {
+        List<QuestCompletionItem> CompletionItems { get; set; }
+
 
         public int ID {  get; set; }
         public string Name { get; set; }
@@ -24,6 +26,7 @@ namespace Engine
             Experience = experience;
             Gold = gold;
             ItemReward = itemReward;
+            CompletionItems = new List<QuestCompletionItem> ();
         }
     }
 }

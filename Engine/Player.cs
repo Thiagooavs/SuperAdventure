@@ -8,6 +8,12 @@ namespace Engine
 {
     public class Player : LivingCreature
     {
+        List<InventoryItems> Inventory {  get; set; }
+        List<PlayerQuest> Quest { get; set; }  
+        
+        
+        
+
       
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }
@@ -18,6 +24,8 @@ namespace Engine
             Gold = gold;
             ExperiencePoints = experiencepoints;
             Level = levels;
+            Inventory = new List<InventoryItems>();
+            Quest = new List<PlayerQuest>();
 
         }
 
