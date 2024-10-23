@@ -215,7 +215,7 @@
             // 
             // rtbMensages
             // 
-            this.rtbMensages.Location = new System.Drawing.Point(347, 130);
+            this.rtbMensages.Location = new System.Drawing.Point(347, 141);
             this.rtbMensages.Name = "rtbMensages";
             this.rtbMensages.ReadOnly = true;
             this.rtbMensages.Size = new System.Drawing.Size(360, 286);
